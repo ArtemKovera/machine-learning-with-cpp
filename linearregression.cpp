@@ -25,7 +25,7 @@ private:
 
 public:
     
-    LinearRegression(std::vector<double> &x, std::vector<double> &y) 
+    LinearRegression(const std::vector<double> &x, const std::vector<double> &y) 
     {
         //the sizes of input vectors must be equal
         assert(x.size() == y.size());
